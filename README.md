@@ -1,37 +1,56 @@
-# Red Onion Restaurant Web App
+# Restaurant Website with Next.js and Cosmic
 
-It is a single page application made with ReactJS, Tailwind CSS etc...
+To build this app, we’re going to use the following technologies:
 
-## Live Demo of this website :
+- [Next.js](https://nextjs.org/docs) - A React framework for production that makes it easy to spin up a full-stack application.
+- [Cosmic](https://www.cosmicjs.com/) - A Headless CMS enables the independence of the data (content) layer and gives us the ability to quickly manage template content.
+- [Sass](https://sass-lang.com/) -  A stable, and powerful professional-grade CSS extension language.
 
-- [Live Site Link](https://red-onion-restaurant-41dbe.web.app/)
+### Links
+- [Read how the template was built](https://www.cosmicjs.com/articles/how-to-build-a-restaurant-website-with-nextjs)
+- [Install the App Template ](https://www.cosmicjs.com/apps/nextjs-restaurant-website) 
+- [View the live demo](https://nextjs-restaurant-website-cms.vercel.app/)
 
-## Technologies
+![template](https://user-images.githubusercontent.com/34789741/164322014-c30d57f2-e00f-42dc-997a-fa4ba39803ce.gif)
 
-[![React Badge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://github.com/19smabtahinoor)
-[![Tailwind Badge](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://github.com/19smabtahinoor)
-[![Firebase Badge](https://img.shields.io/badge/Firebase-FFCB2B?style=for-the-badge&logo=firebase&logoColor=white)](https://github.com/19smabtahinoor)
-[![React Router Badge](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://github.com/19smabtahinoor)
-[![Git Badge](https://img.shields.io/badge/git-f34f29?style=for-the-badge&logo=git&logoColor=white)](https://github.com/19smabtahinoor)
-[![Yarn Badge](https://img.shields.io/badge/yarn-0078D6?style=for-the-badge&logo=yarn&logoColor=white)](https://github.com/19smabtahinoor)
-[![Vercel Badge](https://img.shields.io/badge/vercel-000?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/19smabtahinoor)
-[![Vs Code Badge](https://img.shields.io/badge/Visual_Studio_Code-0078D6?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://github.com/19smabtahinoor)
+## Getting started
 
-## Features
+### Environment Variables
 
-- Red Onion Restaurant is a restaurant website  where you can order different kinds of foods..
-- Implemented an awesome user interface  with React JS and Tailwind CSS..
-- Implemented User Authentication with Firebase Auth.
-- Implemented a thing where users add their delivery details and then they can place their orders.
-- Implemented increase order quantity.
-- Many other features that you can see from the live site.
+You'll need to create an .env file in the root of the project. Log in to Cosmic and from Bucket Settings > API Access take the following values:
+
+```bash
+//.env
+COSMIC_BUCKET_SLUG=your_cosmic_slug
+COSMIC_READ_KEY=your_cosmic_read_key
+```
+
+Install the dependencies with
+```bash
+npm install
+# or
+yarn 
+```
+
+Then run the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 
-## 💻 Developed By
+## Deploy on Vercel
 
-![Developer PIC](https://avatars.githubusercontent.com/u/73340940?s=48&v=4)
+<p>Use the following button to deploy to <a href="https://vercel.com/" rel="noopener noreferrer" target="_blank">Vercel</a>. You will need to add your Bucket API access keys as environment variables. Find these in <em>Bucket Settings &gt; API Access</em><em>.</em></p>
+<p>
+<a href="https://vercel.com/import/git?c=1&s=https://vercel.com/import/git?c=1&s=https://github.com/cosmicjs/nextjs-restaurant-website-cms&env=COSMIC_BUCKET_SLUG,COSMIC_READ_KEY" rel="noopener noreferrer" target="_blank"><img src="https://cdn.cosmicjs.com/d3f0d5e0-c064-11ea-9a05-6f8a16b0b14c-deploy-to-vercel.svg" style="width: 100px;" class="fr-fic fr-dib fr-fil"></a>
+</p>
 
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
-# This Web App got featured in React JS Examples Website. 🤘🤘🤘
-Link : https://reactjsexample.com/a-red-onion-restaurant-web-app-with-react-and-tailwind-css/
+Your feedback and contributions are welcome!
