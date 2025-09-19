@@ -1,56 +1,30 @@
-# Restaurant Website with Next.js and Cosmic
+# Pizza truck landing page
 
-To build this app, we’re going to use the following technologies:
+*Automatically synced with your [v0.app](https://v0.app) deployments*
 
-- [Next.js](https://nextjs.org/docs) - A React framework for production that makes it easy to spin up a full-stack application.
-- [Cosmic](https://www.cosmicjs.com/) - A Headless CMS enables the independence of the data (content) layer and gives us the ability to quickly manage template content.
-- [Sass](https://sass-lang.com/) -  A stable, and powerful professional-grade CSS extension language.
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/jamies-projects-144c4b6d/v0-pizza-truck-landing-page)
+[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/cIm4hAqkTIP)
 
-### Links
-- [Read how the template was built](https://www.cosmicjs.com/articles/how-to-build-a-restaurant-website-with-nextjs)
-- [Install the App Template ](https://www.cosmicjs.com/apps/nextjs-restaurant-website) 
-- [View the live demo](https://nextjs-restaurant-website-cms.vercel.app/)
+## Overview
 
-![template](https://user-images.githubusercontent.com/34789741/164322014-c30d57f2-e00f-42dc-997a-fa4ba39803ce.gif)
+This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
+Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
 
-## Getting started
+## Deployment
 
-### Environment Variables
+Your project is live at:
 
-You'll need to create an .env file in the root of the project. Log in to Cosmic and from Bucket Settings > API Access take the following values:
+**[https://vercel.com/jamies-projects-144c4b6d/v0-pizza-truck-landing-page](https://vercel.com/jamies-projects-144c4b6d/v0-pizza-truck-landing-page)**
 
-```bash
-//.env
-COSMIC_BUCKET_SLUG=your_cosmic_slug
-COSMIC_READ_KEY=your_cosmic_read_key
-```
+## Build your app
 
-Install the dependencies with
-```bash
-npm install
-# or
-yarn 
-```
+Continue building your app on:
 
-Then run the development server:
-```bash
-npm run dev
-# or
-yarn dev
-```
+**[https://v0.app/chat/projects/cIm4hAqkTIP](https://v0.app/chat/projects/cIm4hAqkTIP)**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How It Works
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-
-## Deploy on Vercel
-
-<p>Use the following button to deploy to <a href="https://vercel.com/" rel="noopener noreferrer" target="_blank">Vercel</a>. You will need to add your Bucket API access keys as environment variables. Find these in <em>Bucket Settings &gt; API Access</em><em>.</em></p>
-<p>
-<a href="https://vercel.com/import/git?c=1&s=https://vercel.com/import/git?c=1&s=https://github.com/cosmicjs/nextjs-restaurant-website-cms&env=COSMIC_BUCKET_SLUG,COSMIC_READ_KEY" rel="noopener noreferrer" target="_blank"><img src="https://cdn.cosmicjs.com/d3f0d5e0-c064-11ea-9a05-6f8a16b0b14c-deploy-to-vercel.svg" style="width: 100px;" class="fr-fic fr-dib fr-fil"></a>
-</p>
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-Your feedback and contributions are welcome!
+1. Create and modify your project using [v0.app](https://v0.app)
+2. Deploy your chats from the v0 interface
+3. Changes are automatically pushed to this repository
+4. Vercel deploys the latest version from this repository
