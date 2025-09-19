@@ -8,7 +8,8 @@ import MenuIntro from 'components/MenuIntro';
 import VideoIntro from 'components/VideoIntro';
 import Gallery from 'components/Gallery';
 
-import { getAllDataWithSlug,getDataFromBucket } from 'lib/api';
+import { getAllDataWithSlug, getDataFromBucket } from 'lib/api';
+import { menuItems } from 'data/restaurantData';
 import chooseByType from 'utils/chooseValueByType';
 
 function Menu({ data }) {
@@ -19,8 +20,8 @@ function Menu({ data }) {
   return (
     <>
       <Head>
-        <title>Next.js Restaurant CMS</title>
-        <meta name="description" content="Create template using cosmic.js CMS" />
+        <title>Firedough Restaurant Menu</title>
+        <meta name="description" content="Firedough Restaurant Menu - Fine dining experience" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout navbar={chooseByType(data, 'navigation')}>
@@ -47,7 +48,7 @@ export async function getStaticPaths() {
   
   return {
     paths: dataWithSlug.map((menu) => `/menu/${menu.slug}`),
-    fallback: true,
+    fallback: false, // Changed to false since we have all static data
   }
 }
 

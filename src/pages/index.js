@@ -16,8 +16,8 @@ function Template({ data }) {
   return (
     <>
       <Head>
-        <title>Next.js Restaurant CMS</title>
-        <meta name="description" content="Create template using cosmic.js CMS" />
+        <title>Firedough Restaurant - Fine Dining Experience</title>
+        <meta name="description" content="Firedough Restaurant - Fine dining experience" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout navbar={chooseByType(data, 'navigation')}>
