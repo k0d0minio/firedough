@@ -21,9 +21,9 @@ export function Footer() {
           <div>
             <h4 className="font-bold mb-4">Find Us</h4>
             <div className="space-y-2 text-background/80">
-              <p>📍 Strandhill, Sligo</p>
-              <p>📞 +353 87 123 4567</p>
-              <p>✉️ hello@coastalcrust.ie</p>
+              <p>📍 strandhill beach</p>
+              <p>📞 +353 987654321</p>
+              <p>✉️ firedough@gmail.com</p>
             </div>
           </div>
 
