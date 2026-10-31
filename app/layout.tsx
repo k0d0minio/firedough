@@ -5,9 +5,9 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'Firedough Pizza | Back Easter 2027',
+  description:
+    'Wood-fired pizza truck in Strandhill, Co. Sligo. Back for a new season at Easter 2027.',
 }
 
 export default function RootLayout({

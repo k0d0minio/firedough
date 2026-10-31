@@ -1,19 +1,12 @@
-import { Header } from "@/components/header"
-import { HeroSection } from "@/components/hero-section"
-import { AboutSection } from "@/components/about-section"
-import { MenuSection } from "@/components/menu-section"
-import { CommunitySection } from "@/components/community-section"
-import { Footer } from "@/components/footer"
+// Off-season: only the holding page is rendered. To restore the full landing page,
+// re-mount Header, HeroSection, AboutSection, MenuSection, CommunitySection and Footer
+// from components/ (they are unchanged).
+import { UnderConstruction } from "@/components/under-construction"
 
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <Header />
-      <HeroSection />
-      <AboutSection />
-      <MenuSection />
-      <CommunitySection />
-      <Footer />
+      <UnderConstruction />
     </main>
   )
 }
