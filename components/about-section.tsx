@@ -6,11 +6,11 @@ export function AboutSection() {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-black mb-6 text-balance">Our Story: From Italy to Ireland's Coast</h2>
+            <h2 className="text-4xl font-black mb-6 text-balance">Our Story: From Italy to Ireland&apos;s Coast</h2>
             <div className="space-y-4 text-lg leading-relaxed">
               <p>
                 Three generations ago, our family began crafting authentic Neapolitan pizza in a small village outside
-                Naples. When we moved to Ireland's breathtaking west coast, we brought those time-honored recipes with
+                Naples. When we moved to Ireland&apos;s breathtaking west coast, we brought those time-honored recipes with
                 us.
               </p>
               <p>

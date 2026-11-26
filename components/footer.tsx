@@ -14,7 +14,7 @@ export function Footer() {
               <span className="font-bold text-xl text-primary">Firedough Pizza</span>
             </div>
             <p className="text-background/80 leading-relaxed">
-              Authentic Italian pizza served fresh from our mobile kitchen on Ireland's stunning west coast.
+              Authentic Italian pizza served fresh from our mobile kitchen on Ireland&apos;s stunning west coast.
             </p>
           </div>
 
@@ -38,7 +38,7 @@ export function Footer() {
 
           <div>
             <h4 className="font-bold mb-4">Stay Updated</h4>
-            <p className="text-background/80 mb-4 text-sm">Get notified when we're in your area!</p>
+            <p className="text-background/80 mb-4 text-sm">Get notified when we&apos;re in your area!</p>
             <div className="flex gap-2">
               <Input
                 placeholder="Your email"

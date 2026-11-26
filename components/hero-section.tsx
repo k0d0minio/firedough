@@ -20,7 +20,7 @@ export function HeroSection() {
           <span className="block text-accent">with a Taste of the West Coast</span>
         </h1>
         <p className="text-xl md:text-2xl mb-8 text-pretty leading-relaxed">
-          Family recipes from Strandhill, served fresh from our truck on Ireland's stunning west coast. Where tradition meets
+          Family recipes from Strandhill, served fresh from our truck on Ireland&apos;s stunning west coast. Where tradition meets
           the wild Atlantic way.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

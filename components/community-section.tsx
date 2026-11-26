@@ -7,7 +7,7 @@ export function CommunitySection() {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-black mb-4 text-balance">Part of the Community</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-            We're proud to be part of Ireland's west coast community, supporting local events and partnering with nearby
+            We&apos;re proud to be part of Ireland&apos;s west coast community, supporting local events and partnering with nearby
             farms and producers.
           </p>
         </div>
@@ -51,7 +51,7 @@ export function CommunitySection() {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                We source our vegetables from O'Brien's Farm and our cheese from the local Dingle Peninsula creamery.
+                We source our vegetables from O&apos;Brien&apos;s Farm and our cheese from the local Dingle Peninsula creamery.
               </p>
             </CardContent>
           </Card>
